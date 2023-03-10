@@ -8,9 +8,9 @@ include("Girassol.php");
 include("Tulipa.php");
 
 
-$margarida = new Margarida("Totó", "Vira-lata", 3, "Caramelo");
+$margarida = new Margarida("Margarida", "Chrysanthemum leucanthemum ","Suave e relaxante" , "50 - 80cm","Zonas ribeirinhas e relvados húmidos", "Branca");
 $lirio = new Lirio("Mingau", "Vira-lata", 2, "Branco");
-$plumeria = new Plumeria("Pluméria", "Frangipani", "Doce", "Médio");
+$plumeria = new Plumeria("Pluméria", "Frangipani-gigante", "Doce e suave", "4.7 - 6.0 m", "Úmido e ensolarado");
 $girassol = new Girassol("Leticia", "Python", 5, "Preto");
 $tulipa = new Tulipa("Leticia", "Python", 5, "Preto");
 

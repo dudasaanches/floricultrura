@@ -41,6 +41,15 @@ echo "Cor: " . $plumeria->getCor() . " <br>";
 
 echo "<hr>";
 
+echo "Nome: " . $girassol->getNome() . " <br>";
+echo "Espécie: " . $girassol->getEspecie() . " <br>";
+echo "Aroma: " . $girassol->getAroma() . " <br>";
+echo "Tamanho: " . $girassol->getTamanho() . " <br>";
+echo "Ambiente: " . $girassol->getAmbiente() . " <br>";
+echo "Cor: " . $girassol->getCor() . " <br>";
+
+echo "<hr>";
+
 echo "Nome: " . $tulipa->getNome() . " <br>";
 echo "Espécie: " . $tulipa->getEspecie() . " <br>";
 echo "Aroma: " . $tulipa->getAroma() . " <br>";

@@ -11,7 +11,7 @@ include("Tulipa.php");
 $margarida = new Margarida("Totó", "Vira-lata", 3, "Caramelo");
 $lirio = new Lirio("Mingau", "Vira-lata", 2, "Branco");
 $plumeria = new Plumeria("Tartaruga", "Jabuti", 100, "Verde");
-$girassol = new Girassol("Leticia", "Python", 5, "Preto");
+$girassol = new Girassol("Girassol", "Helianthus annuus", " suave e leve", "média", "ensolarado", "suvinil");
 $tulipa = new Tulipa("Leticia", "Python", 5, "Preto");
 
 echo "Nome: " . $margarida->getNome() . " <br>";

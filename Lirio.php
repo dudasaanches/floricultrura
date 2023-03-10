@@ -6,6 +6,6 @@ class Lirio extends Flores{
         parent::__construct($nome, $especie, $aroma, $tamanho, $ambiente);
     }
     public function cor() {
-        echo "Branca.";
+        echo "Branca <br>";
     }
 }

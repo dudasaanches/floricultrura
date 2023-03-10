@@ -7,6 +7,6 @@ class Plumeria extends Flores {
     }
 
     public function cor() {
-        echo "branca e amarela <br>";
+        echo "Branca e Amarela <br>";
     }
 }

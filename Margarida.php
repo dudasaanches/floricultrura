@@ -6,12 +6,8 @@ class Margarida extends Flores{
         parent::__construct($nome, $especie, $aroma, $tamanho, $ambiente);
     }
 
-    public function falar() {
-        echo "ssssssssssss <br>";
-    }
-
-    public function andar() {
-        echo "Rastejando devagar...";
+    public function cor() {
+        echo "Branca <br>";
     }
 
 }

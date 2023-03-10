@@ -1,6 +1,8 @@
 <?php 
 
 include("Flores.php");
+include("FloresInterface.php");
+include("Flores.php");
 include("Margarida.php");
 include("Lirio.php");
 include("Plumeria.php");

@@ -10,7 +10,7 @@ include("Tulipa.php");
 
 $margarida = new Margarida("Totó", "Vira-lata", 3, "Caramelo");
 $lirio = new Lirio("Mingau", "Vira-lata", 2, "Branco");
-$plumeria = new Plumeria("Tartaruga", "Jabuti", 100, "Verde");
+$plumeria = new Plumeria("Pluméria", "Frangipani", "Doce", "Médio");
 $girassol = new Girassol("Leticia", "Python", 5, "Preto");
 $tulipa = new Tulipa("Leticia", "Python", 5, "Preto");
 

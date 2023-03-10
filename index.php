@@ -7,13 +7,16 @@ include("Plumeria.php");
 include("Girassol.php");
 include("Tulipa.php");
 
-$margarida = new Margarida("Margarida", "Chrysanthemum leucanthemum ","Suave e relaxante" , "50 - 80cm","Zonas ribeirinhas e relvados húmidos", "Branca");
+$margarida = new Margarida("Margarida", "Chrysanthemum leucanthemum ","Suave e relaxante" , "50 - 80cm","Zonas ribeirinhas e relvados húmidos");
 $lirio = new Lirio("Mingau", "Vira-lata", 2, "Branco");
 $margarida = new Margarida("Totó", "Vira-lata", 3, "Caramelo");
 $lirio = new Lirio("Lírio", "", 2, "Branco");
 
 $plumeria = new Plumeria("Tartaruga", "Jabuti", 100, "Verde");
 $girassol = new Girassol("Leticia", "Python", 5, "Preto");
+$lirio = new Lirio("Lírio", "Lírio Asíatico", "Inebriante", "1 - 2m", "Úmido");
+$plumeria = new Plumeria("Pluméria", "Frangipani-gigante", "Doce e suave", "4.7 - 6.0 m", "Úmido e ensolarado");
+$girassol = new Girassol("Girassol", "Helianthus annuus", " suave e leve", "média", "ensolarado", "suvinil");
 $tulipa = new Tulipa ("Tulipa", "Monogynia", "Adocicado", "16,7 cm", "Climas frios");
 
 echo "Nome: " . $margarida->getNome() . " <br>";

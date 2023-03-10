@@ -8,13 +8,10 @@ include("Girassol.php");
 include("Tulipa.php");
 
 
-<<<<<<< HEAD
-$margarida = new Margarida("Margarida", "Chrysanthemum leucanthemum ","Suave e relaxante" , "50 - 80cm","Zonas ribeirinhas e relvados húmidos", "Branca");
+$margarida = new Margarida("Margarida", "Chrysanthemum leucanthemum ","Suave e relaxante" , "50 - 80cm","Zonas ribeirinhas e relvados húmidos");
 $lirio = new Lirio("Mingau", "Vira-lata", 2, "Branco");
-=======
 $margarida = new Margarida("Totó", "Vira-lata", 3, "Caramelo");
 $lirio = new Lirio("Lírio", "", 2, "Branco");
->>>>>>> 93819c60965e495ad04e6a94b888446cccba84bc
 $plumeria = new Plumeria("Tartaruga", "Jabuti", 100, "Verde");
 $girassol = new Girassol("Leticia", "Python", 5, "Preto");
 $tulipa = new Tulipa("Leticia", "Python", 5, "Preto");

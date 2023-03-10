@@ -6,4 +6,7 @@ class Girassol extends Flores{
         parent::__construct($Nome, $Especie, $Aroma, $Tamanho, $Ambiente, $Cor  );
     }
 
+    public function cor() {
+        echo "suvinil";
+    }
 }

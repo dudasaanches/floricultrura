@@ -5,31 +5,38 @@ class Flores {
     private $especie;
     private $aroma;
     private $tamanho;
+    private $ambiente;
 
-    public function __construct($nome, $especie, $aroma, $tamanho, $ambiente, $cor) {
+    public function __construct($nome, $especie, $aroma, $tamanho, $ambiente) {
         $this->nome = $nome;
-        $this->raca = $especie;
-        $this->idade = $idade;
-        $this->cor = $cor;
+        $this->especie = $especie;
+        $this->aroma = $aroma;
+        $this->tamanho = $tamanho;
+        $this->ambiente = $ambiente;
     }
 
     public function getNome() {
         return $this->nome;
     }
 
-    public function getRaca() {
-        return $this->raca;
+    public function getEspecie() {
+        return $this->especie;
     }
 
-    public function getIdade() {
-        return $this->idade;
+    public function getAroma() {
+        return $this->aroma;
     }
 
-    public function getCor() {
-        return $this->cor;
+    public function getTamanho() {
+        return $this->tamanho;
     }
 
-    public function andar() {
-        echo "Andando...";
+    public function getAmbiente() {
+        return $this->ambiente;
     }
+
+    public function cor() {
+        echo "Rosa clara";
+    }
+
 }

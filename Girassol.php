@@ -2,8 +2,8 @@
 
 class Girassol extends Flores{
 
-    public function __construct($nome, $especie, $aroma, $tamanho,$ambiente, $cor ) {
-        parent::__construct($nome, $especie, $aroma, $tamanho, $ambiente, $cor  );
+    public function __construct($Nome, $Especie, $Aroma, $Tamanho,$Ambiente, $Cor ) {
+        parent::__construct($Nome, $Especie, $Aroma, $Tamanho, $Ambiente, $Cor  );
     }
 
 }
